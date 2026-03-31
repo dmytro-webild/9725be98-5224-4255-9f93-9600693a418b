@@ -8,8 +8,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
-import { Briefcase, Building, Droplets, ShieldCheck } from "lucide-react";
+import { Briefcase, Building, Droplets, ShieldCheck, Zap, Users, Award } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -32,7 +31,6 @@ export default function LandingPage() {
         { name: "Services", id: "#services" },
         { name: "About", id: "#about" },
         { name: "Why Choose Us", id: "#why-choose-us" },
-        { name: "Gallery", id: "#gallery" },
         { name: "Contact", id: "#contact" },
       ]}
       brandName="Colvin Twins"
@@ -117,17 +115,17 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="gallery" data-section="testimonials">
-      <TestimonialCardTwelve
-      cardTitle="Our Work Before & After"
-      cardTag="Quality Gallery"
-      cardAnimation="slide-up"
+  <div id="advantage" data-section="advantage">
+      <TestimonialAboutCard
       useInvertedBackground={false}
-      testimonials={[
-        { id: "1", name: "Concrete Foundation", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
-        { id: "2", name: "Pressure Wash Detail", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg?_wi=2" },
-        { id: "3", name: "Pressure Wash Finish", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg?_wi=2" },
-      ]}
+      tag="Why Choose Us"
+      title="The Colvin Twins Difference"
+      description="Why settle for general contractors when you can partner with family-owned experts? We combine small-town integrity with enterprise-grade quality control."
+      subdescription="Our competitive advantage is simple: we show up on time, maintain a spotless worksite, and communicate clearly from day one. You aren't just another job site to us—you are a partner."
+      icon={Award}
+      imageSrc="http://img.b2bpic.net/free-photo/construction-manager-smiling-with-blueprint_1150-6789.jpg"
+      imageAlt="Expert team consultation"
+      mediaAnimation="slide-up"
     />
   </div>
 
