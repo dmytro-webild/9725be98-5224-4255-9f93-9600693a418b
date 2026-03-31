@@ -61,7 +61,7 @@ export default function LandingPage() {
             description="With over 20 years of experience, we provide trusted concrete and construction services for residential and commercial clients."
             subdescription="As a family-owned business, we treat your property with the same care and attention as our own, ensuring every job is finished to the highest standard."
             icon={ShieldCheck}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=1"
             mediaAnimation="slide-up"
             useInvertedBackground={true}
           />
@@ -76,8 +76,8 @@ export default function LandingPage() {
               {
                 title: "Concrete Work",                description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",                icon: Building,
                 mediaItems: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg", imageAlt: "Concrete pouring service" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991229900-9onbznnt.jpg", imageAlt: "Concrete work finish" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=2", imageAlt: "Concrete pouring service" },
+                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991229900-9onbznnt.jpg?_wi=1", imageAlt: "Concrete work finish" },
                 ]
               },
               {
@@ -107,7 +107,7 @@ export default function LandingPage() {
             description="We pride ourselves on a safety-first culture. Our team is fully insured and trained to manage complex sites with professionalism and care."
             subdescription="When you hire Colvin Twins, you're choosing peace of mind, reliability, and project quality that exceeds expectations."
             icon={ShieldCheck}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=3"
             mediaAnimation="slide-up"
             useInvertedBackground={true}
           />
@@ -120,7 +120,7 @@ export default function LandingPage() {
             description="Why settle for general contractors when you can partner with family-owned experts? We combine small-town integrity with enterprise-grade quality control."
             subdescription="Our competitive advantage is simple: we show up on time, maintain a spotless worksite, and communicate clearly from day one. You aren't just another job site to us—you are a partner."
             icon={Award}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991229900-9onbznnt.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991229900-9onbznnt.jpg?_wi=2"
             mediaAnimation="slide-up"
             useInvertedBackground={false}
           />
@@ -137,7 +137,7 @@ export default function LandingPage() {
             ]}
             textarea={{ name: "projectDetails", placeholder: "Tell us about your project", rows: 4, required: true }}
             useInvertedBackground={true}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=4"
             mediaAnimation="slide-up"
             buttonText="Send Request"
           />
@@ -145,7 +145,7 @@ export default function LandingPage() {
 
         <div id="footer" data-section="footer">
             <FooterMedia
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=5"
             columns={[
               { title: "Colvin Twins", items: [{ label: "About Us", href: "#about" }, { label: "Why Choose Us", href: "#why-choose-us" }] },
               { title: "Services", items: [{ label: "Concrete", href: "#services" }, { label: "Pressure Washing", href: "#services" }, { label: "Snow Removal", href: "#services" }] },
