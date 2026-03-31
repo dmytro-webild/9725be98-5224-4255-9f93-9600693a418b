@@ -62,7 +62,7 @@ export default function LandingPage() {
       description="With over 20 years of experience, we provide trusted concrete and construction services for residential and commercial clients."
       subdescription="As a family-owned business, we treat your property with the same care and attention as our own, ensuring every job is finished to the highest standard."
       icon={ShieldCheck}
-      videoSrc="https://www.w3schools.com/howto/img_video.mp4"
+      videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774995893254-l747vl94.mp4"
       mediaAnimation="none"
     />
   </div>
