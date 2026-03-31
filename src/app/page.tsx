@@ -31,6 +31,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Services", id: "#services" },
         { name: "About", id: "#about" },
+        { name: "Why Choose Us", id: "#why-choose-us" },
         { name: "Gallery", id: "#gallery" },
         { name: "Contact", id: "#contact" },
       ]}
@@ -42,9 +43,9 @@ export default function LandingPage() {
       <HeroLogoBillboardSplit
       background={{ variant: "gradient-bars" }}
       logoText="Colvin Twins Concrete & Construction"
-      description="Premium concrete solutions and professional construction services for residential and commercial projects. Built on safety, quality, and reliability."
+      description="Professional, family-owned construction and concrete experts. From foundation pouring to site maintenance, we deliver safety-first, dependable results."
       buttons={[
-        { text: "Get Estimate", href: "#contact" },
+        { text: "Get a Free Quote", href: "#contact" },
         { text: "View Services", href: "#services" },
       ]}
       buttonAnimation="slide-up"
@@ -55,46 +56,13 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="services" data-section="services">
-      <FeatureCardTwentyFive
-      animationType="slide-up"
-      textboxLayout="split"
-      useInvertedBackground={true}
-      features={[
-        {
-          title: "Concrete Services",          description: "Expert pouring, foundation work, and decorative concrete finishes.",          icon: Building,
-          mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/workers-pouring-concrete-foundation-construction-site_1150-1845.jpg?_wi=1", imageAlt: "Concrete pouring service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/concrete-slab-poured-construction-site_1150-1846.jpg?_wi=2", imageAlt: "Concrete work finish" },
-          ]
-        },
-        {
-          title: "Pressure Washing",          description: "Industrial-grade cleaning for driveways, siding, and heavy machinery.",          icon: Droplets,
-          mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/professional-cleaning-driveway-pressure-washer_1150-2456.jpg?_wi=1", imageAlt: "Pressure washing service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/clean-surface-after-pressure-washing_1150-2457.jpg?_wi=2", imageAlt: "Surface cleaning process" },
-          ]
-        },
-        {
-          title: "Snow Removal",          description: "Reliable snow removal and site management during winter months.",          icon: Briefcase,
-          mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/snow-clearing-heavy-equipment-winter_1150-3245.jpg?_wi=1", imageAlt: "Snow removal service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/cleared-driveway-after-snow-removal_1150-3246.jpg?_wi=2", imageAlt: "Clearing site in winter" },
-          ]
-        },
-      ]}
-      title="Our Expert Services"
-      description="From foundation pouring to professional site maintenance, we deliver excellence in every square inch."
-    />
-  </div>
-
   <div id="about" data-section="about">
       <TestimonialAboutCard
       useInvertedBackground={true}
       tag="About Us"
-      title="Excellence in Construction"
-      description="We are a family-owned and operated construction business with over 20 years of experience serving our community."
-      subdescription="Safety is our priority. We ensure that every job meets the highest standards of structural integrity and aesthetic finish."
+      title="Dependable Family Service"
+      description="With over 20 years of experience, we provide trusted concrete and construction services for residential and commercial clients."
+      subdescription="As a family-owned business, we treat your property with the same care and attention as our own, ensuring every job is finished to the highest standard."
       icon={ShieldCheck}
       imageSrc="http://img.b2bpic.net/free-photo/professional-construction-team-meeting-onsite_1150-4567.jpg"
       imageAlt="Construction team onsite"
@@ -102,16 +70,63 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardTwelve
-      cardTitle="Trusted by Professionals"
-      cardTag="Our Reputation"
-      cardAnimation="slide-up"
+  <div id="services" data-section="services">
+      <FeatureCardTwentyFive
+      animationType="slide-up"
+      textboxLayout="split"
+      useInvertedBackground={false}
+      features={[
+        {
+          title: "Concrete Work",          description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",          icon: Building,
+          mediaItems: [
+            { imageSrc: "http://img.b2bpic.net/free-photo/workers-pouring-concrete-foundation-construction-site_1150-1845.jpg?_wi=1", imageAlt: "Concrete pouring service" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/concrete-slab-poured-construction-site_1150-1846.jpg?_wi=2", imageAlt: "Concrete work finish" },
+          ]
+        },
+        {
+          title: "Pressure Washing",          description: "High-pressure cleaning for driveways, siding, walkways, and heavy machinery.",          icon: Droplets,
+          mediaItems: [
+            { imageSrc: "http://img.b2bpic.net/free-photo/professional-cleaning-driveway-pressure-washer_1150-2456.jpg?_wi=1", imageAlt: "Pressure washing service" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/clean-surface-after-pressure-washing_1150-2457.jpg?_wi=2", imageAlt: "Surface cleaning process" },
+          ]
+        },
+        {
+          title: "Snow Removal",          description: "Professional snow clearing and site management solutions for your property all winter long.",          icon: Briefcase,
+          mediaItems: [
+            { imageSrc: "http://img.b2bpic.net/free-photo/snow-clearing-heavy-equipment-winter_1150-3245.jpg?_wi=1", imageAlt: "Snow removal service" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/cleared-driveway-after-snow-removal_1150-3246.jpg?_wi=2", imageAlt: "Clearing site in winter" },
+          ]
+        },
+      ]}
+      title="Our Services"
+      description="Reliable, professional, and built to last. Whatever the project, we have you covered."
+    />
+  </div>
+
+  <div id="why-choose-us" data-section="why-choose-us">
+      <TestimonialAboutCard
       useInvertedBackground={true}
+      tag="Safety First"
+      title="Fully Insured & Dependable"
+      description="We pride ourselves on a safety-first culture. Our team is fully insured and trained to manage complex sites with professionalism and care."
+      subdescription="When you hire Colvin Twins, you're choosing peace of mind, reliability, and project quality that exceeds expectations."
+      icon={ShieldCheck}
+      imageSrc="http://img.b2bpic.net/free-photo/worker-wearing-safety-gear-construction-site_1150-4568.jpg"
+      imageAlt="Safety equipment and professional work site"
+      mediaAnimation="slide-up"
+    />
+  </div>
+
+  <div id="gallery" data-section="testimonials">
+      <TestimonialCardTwelve
+      cardTitle="Our Work Before & After"
+      cardTag="Quality Gallery"
+      cardAnimation="slide-up"
+      useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah J.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
-        { id: "2", name: "Mark D.", imageSrc: "http://img.b2bpic.net/free-photo/commercial-site-owner-on-project-consultation_1150-9877.jpg" },
-        { id: "3", name: "Emily R.", imageSrc: "http://img.b2bpic.net/free-photo/happy-client-after-renovation_1150-9878.jpg" },
+        { id: "1", name: "Concrete Foundation", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
+        { id: "2", name: "Pressure Wash Detail", imageSrc: "http://img.b2bpic.net/free-photo/commercial-site-owner-on-project-consultation_1150-9877.jpg" },
+        { id: "3", name: "Project Completion", imageSrc: "http://img.b2bpic.net/free-photo/happy-client-after-renovation_1150-9878.jpg" },
       ]}
     />
   </div>
@@ -119,14 +134,14 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
-      title="Get Your Free Estimate"
-      description="Ready to start your next concrete or construction project? Contact us today for a free, no-obligation quote."
+      title="Contact Colvin Twins"
+      description="Have questions? Reach out via phone or email for a consultation, or complete the form below for a free estimate."
       inputs={[
         { name: "fullName", type: "text", placeholder: "Full Name", required: true },
         { name: "email", type: "email", placeholder: "Email Address", required: true },
         { name: "phone", type: "tel", placeholder: "Phone Number", required: true },
       ]}
-      textarea={{ name: "projectDetails", placeholder: "Project details or service requested", rows: 4, required: true }}
+      textarea={{ name: "projectDetails", placeholder: "Tell us about your project", rows: 4, required: true }}
       imageSrc="http://img.b2bpic.net/free-photo/engineer-reviewing-plans-at-site_1150-5678.jpg"
       imageAlt="Construction site planning"
       mediaAnimation="slide-up"
@@ -139,9 +154,9 @@ export default function LandingPage() {
       imageSrc="http://img.b2bpic.net/free-photo/industrial-construction-site-with-heavy-machinery_107424-699.jpg?_wi=2"
       imageAlt="Construction site"
       columns={[
-        { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Gallery", href: "#gallery" }] },
+        { title: "Colvin Twins", items: [{ label: "About Us", href: "#about" }, { label: "Why Choose Us", href: "#why-choose-us" }] },
         { title: "Services", items: [{ label: "Concrete", href: "#services" }, { label: "Pressure Washing", href: "#services" }, { label: "Snow Removal", href: "#services" }] },
-        { title: "Support", items: [{ label: "Contact Us", href: "#contact" }, { label: "Free Estimate", href: "#contact" }] },
+        { title: "Get in Touch", items: [{ label: "Phone: 555-0123", href: "tel:5550123" }, { label: "Email: hello@colvintwins.com", href: "mailto:hello@colvintwins.com" }, { label: "Free Estimate", href: "#contact" }] },
       ]}
       logoText="Colvin Twins"
       copyrightText="© 2025 Colvin Twins Concrete & Construction"
