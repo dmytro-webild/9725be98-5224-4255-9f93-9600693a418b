@@ -79,8 +79,8 @@ export default function LandingPage() {
         {
           title: "Concrete Work",          description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",          icon: Building,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/workers-pouring-concrete-foundation-construction-site_1150-1845.jpg?_wi=1", imageAlt: "Concrete pouring service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/concrete-slab-poured-construction-site_1150-1846.jpg?_wi=2", imageAlt: "Concrete work finish" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989809272-dhy62eaw.jpg", imageAlt: "Concrete pouring service" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989826740-t3rhxpvx.jpg", imageAlt: "Concrete work finish" },
           ]
         },
         {
