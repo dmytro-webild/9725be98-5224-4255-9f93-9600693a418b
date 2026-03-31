@@ -93,8 +93,8 @@ export default function LandingPage() {
         {
           title: "Snow Removal",          description: "Professional snow clearing and site management solutions for your property all winter long.",          icon: Briefcase,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/snow-clearing-heavy-equipment-winter_1150-3245.jpg?_wi=1", imageAlt: "Snow removal service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/cleared-driveway-after-snow-removal_1150-3246.jpg?_wi=2", imageAlt: "Clearing site in winter" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774992297873-n029rg7y.jpg", imageAlt: "Snow removal service" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774992301985-x9ppeq1s.jpg", imageAlt: "Clearing site in winter" },
           ]
         },
       ]}
