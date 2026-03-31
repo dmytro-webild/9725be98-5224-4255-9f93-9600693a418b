@@ -58,7 +58,7 @@ export default function LandingPage() {
       <FeatureCardTwentyFive
       animationType="slide-up"
       textboxLayout="split"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       features={[
         {
           title: "Concrete Work",          description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",          icon: Building,
@@ -103,7 +103,7 @@ export default function LandingPage() {
 
   <div id="advantage" data-section="advantage">
       <TestimonialAboutCard
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       tag="Why Choose Us"
       title="The Colvin Twins Difference"
       description="Why settle for general contractors when you can partner with family-owned experts? We combine small-town integrity with enterprise-grade quality control."
