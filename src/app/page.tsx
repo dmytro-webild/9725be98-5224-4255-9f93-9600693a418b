@@ -45,8 +45,8 @@ export default function LandingPage() {
       logoText="Colvin Twins Concrete & Construction"
       description="Professional, family-owned construction and concrete experts. From foundation pouring to site maintenance, we deliver safety-first, dependable results."
       buttons={[
-        { text: "Get a Free Quote", href: "#contact" },
-        { text: "View Services", href: "#services" },
+        { text: "Get a Free Quote", onClick: () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }) },
+        { text: "View Services", onClick: () => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" }) },
       ]}
       buttonAnimation="slide-up"
       layoutOrder="default"
