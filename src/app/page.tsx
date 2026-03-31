@@ -8,7 +8,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Briefcase, Building, Droplets, ShieldCheck, Zap, Users, Award, Snowflake } from "lucide-react";
+import { Briefcase, Building, Droplets, ShieldCheck, Zap, Users, Award } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -62,7 +62,7 @@ export default function LandingPage() {
       description="With over 20 years of experience, we provide trusted concrete and construction services for residential and commercial clients."
       subdescription="As a family-owned business, we treat your property with the same care and attention as our own, ensuring every job is finished to the highest standard."
       icon={ShieldCheck}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774993155898-4ap3t2u2.webp"
+      imageSrc="http://img.b2bpic.net/free-photo/professional-construction-team-meeting-onsite_1150-4567.jpg"
       imageAlt="Construction team onsite"
       mediaAnimation="slide-up"
     />
@@ -89,7 +89,7 @@ export default function LandingPage() {
           ]
         },
         {
-          title: "Snow Removal",          description: "Professional snow clearing and site management solutions for your property all winter long.",          icon: Snowflake,
+          title: "Snow Removal",          description: "Professional snow clearing and site management solutions for your property all winter long.",          icon: Briefcase,
           mediaItems: [
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774992297873-n029rg7y.jpg", imageAlt: "Snow removal service" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774992301985-x9ppeq1s.jpg", imageAlt: "Clearing site in winter" },
