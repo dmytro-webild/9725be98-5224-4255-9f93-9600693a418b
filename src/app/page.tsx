@@ -108,7 +108,7 @@ export default function LandingPage() {
       description="We pride ourselves on a safety-first culture. Our team is fully insured and trained to manage complex sites with professionalism and care."
       subdescription="When you hire Colvin Twins, you're choosing peace of mind, reliability, and project quality that exceeds expectations."
       icon={ShieldCheck}
-      imageSrc="http://img.b2bpic.net/free-photo/worker-wearing-safety-gear-construction-site_1150-4568.jpg"
+      imageSrc="http://img.b2bpic.net/premium-photo/stylish-wooden-deck-surrounded-by-lush-greenery-cozy-backyard-with-sunlight_75563-38803.jpg?id=405993522"
       imageAlt="Safety equipment and professional work site"
       mediaAnimation="slide-up"
     />
