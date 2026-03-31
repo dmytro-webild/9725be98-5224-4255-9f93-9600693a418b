@@ -135,7 +135,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/industrial-construction-site-with-heavy-machinery_107424-699.jpg?_wi=2"
+      imageSrc="http://img.b2bpic.net/premium-photo/black-liquid-texture-background_719536-365.jpg?id=152414340"
       imageAlt="Construction site"
       columns={[
         { title: "Colvin Twins", items: [{ label: "About Us", href: "#about" }, { label: "Why Choose Us", href: "#why-choose-us" }] },
