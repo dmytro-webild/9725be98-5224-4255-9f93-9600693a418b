@@ -49,7 +49,7 @@ export default function LandingPage() {
       ]}
       buttonAnimation="slide-up"
       layoutOrder="default"
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg?_wi=1"
       imageAlt="Professional construction work site"
       mediaAnimation="blur-reveal"
     />
@@ -64,22 +64,22 @@ export default function LandingPage() {
         {
           title: "Concrete Services",          description: "Expert pouring, foundation work, and decorative concrete finishes.",          icon: Building,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg", imageAlt: "Concrete pouring service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg", imageAlt: "Concrete work finish" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg?_wi=1", imageAlt: "Concrete pouring service" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg?_wi=2", imageAlt: "Concrete work finish" },
           ]
         },
         {
           title: "Pressure Washing",          description: "Industrial-grade cleaning for driveways, siding, and heavy machinery.",          icon: Droplets,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg", imageAlt: "Pressure washing service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg", imageAlt: "Surface cleaning process" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg?_wi=1", imageAlt: "Pressure washing service" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg?_wi=2", imageAlt: "Surface cleaning process" },
           ]
         },
         {
           title: "Snow Removal",          description: "Reliable snow removal and site management during winter months.",          icon: Briefcase,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg", imageAlt: "Snow removal service" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg", imageAlt: "Clearing site in winter" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg?_wi=1", imageAlt: "Snow removal service" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg?_wi=2", imageAlt: "Clearing site in winter" },
           ]
         },
       ]}
@@ -109,11 +109,11 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah J.", role: "Homeowner", company: "Local Resident", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" },
+        { id: "1", name: "Sarah J.", role: "Homeowner", company: "Local Resident", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=1" },
         { id: "2", name: "Mark D.", role: "Business Owner", company: "Downtown Plaza", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/male-worker-construction-wearing-protection-gear_23-2148784062.jpg" },
         { id: "3", name: "Emily R.", role: "Property Manager", company: "Vista Apartments", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/brunette-young-girl-blue-shirt-is-sitting-sofa-studio-she-has-sketches-her-both-hands-she-is-looking-camera_197531-799.jpg" },
         { id: "4", name: "David K.", role: "Developer", company: "Growth Co", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/shallow-focus-young-female-construction-worker-with-yellow-helmet-daytime_181624-53062.jpg" },
-        { id: "5", name: "Alex P.", role: "General Contractor", company: "BuildRight Pros", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" },
+        { id: "5", name: "Alex P.", role: "General Contractor", company: "BuildRight Pros", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=2" },
       ]}
       title="What Our Clients Say"
       description="Trusted by hundreds of homeowners and business owners across the region."
@@ -140,7 +140,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg?_wi=2"
       imageAlt="Construction site"
       columns={[
         { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Gallery", href: "#gallery" }] },
