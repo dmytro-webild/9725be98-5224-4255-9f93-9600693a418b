@@ -10,8 +10,11 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import { Briefcase, Building, Droplets, ShieldCheck } from "lucide-react";
+import { useState } from "react";
 
 export default function LandingPage() {
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+
   return (
     <ThemeProvider
         defaultButtonVariant="directional-hover"
@@ -118,17 +121,31 @@ export default function LandingPage() {
   </div>
 
   <div id="gallery" data-section="testimonials">
-      <TestimonialCardTwelve
-      cardTitle="Our Work Before & After"
-      cardTag="Quality Gallery"
-      cardAnimation="slide-up"
-      useInvertedBackground={false}
-      testimonials={[
-        { id: "1", name: "Concrete Foundation", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
-        { id: "2", name: "Pressure Wash Detail", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg?_wi=2" },
-        { id: "3", name: "Pressure Wash Finish", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg?_wi=2" },
-      ]}
-    />
+      <div className="flex flex-col items-center justify-center py-20">
+        {!isGalleryOpen && (
+          <button 
+            onClick={() => setIsGalleryOpen(true)} 
+            className="px-8 py-4 bg-primary-cta text-primary-cta-text rounded-full font-semibold hover:opacity-90 transition-opacity"
+          >
+            Show Gallery
+          </button>
+        )}
+        {isGalleryOpen && (
+          <div className="w-full">
+            <TestimonialCardTwelve
+              cardTitle="Our Work Before & After"
+              cardTag="Quality Gallery"
+              cardAnimation="slide-up"
+              useInvertedBackground={false}
+              testimonials={[
+                { id: "1", name: "Concrete Foundation", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
+                { id: "2", name: "Pressure Wash Detail", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg?_wi=2" },
+                { id: "3", name: "Pressure Wash Finish", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg?_wi=2" },
+              ]}
+            />
+          </div>
+        )}
+      </div>
   </div>
 
   <div id="contact" data-section="contact">
