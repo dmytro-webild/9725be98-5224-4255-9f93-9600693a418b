@@ -86,8 +86,8 @@ export default function LandingPage() {
         {
           title: "Pressure Washing",          description: "High-pressure cleaning for driveways, siding, walkways, and heavy machinery.",          icon: Droplets,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg?_wi=1", imageAlt: "Before pressure washing" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg?_wi=1", imageAlt: "After pressure washing" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774990842713-feb2k62q.jpg", imageAlt: "Before pressure washing" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774990850829-cv3xsf59.jpg", imageAlt: "After pressure washing" },
           ]
         },
         {
