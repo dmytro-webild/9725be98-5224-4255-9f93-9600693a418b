@@ -67,7 +67,7 @@ export default function LandingPage() {
       ]}
       buttonAnimation="slide-up"
       layoutOrder="default"
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg?_wi=1"
       imageAlt="Professional construction work site"
       mediaAnimation="blur-reveal"
     />
@@ -85,15 +85,15 @@ export default function LandingPage() {
           icon: Building,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg?_wi=1",
               imageAlt: "Concrete pouring service",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg?_wi=2",
               imageAlt: "Concrete work finish",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg?_wi=2",
           imageAlt: "construction work site concrete professional",
         },
         {
@@ -102,15 +102,15 @@ export default function LandingPage() {
           icon: Droplets,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg?_wi=1",
               imageAlt: "Pressure washing service",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/workman-applying-road-sweeper-construction-site_259150-60509.jpg?_wi=2",
               imageAlt: "Surface cleaning process",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/factory-manager-gives-paperwork-files-investors-reviewing-financial-statement_482257-126495.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/factory-manager-gives-paperwork-files-investors-reviewing-financial-statement_482257-126495.jpg?_wi=1",
           imageAlt: "construction team meeting safety helmets",
         },
         {
@@ -119,15 +119,15 @@ export default function LandingPage() {
           icon: Briefcase,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg?_wi=1",
               imageAlt: "Snow removal service",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-perspective-wood-logs-timber-industry_23-2151239349.jpg?_wi=2",
               imageAlt: "Clearing site in winter",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-is-working-with-reinforce-concrete-stair-structure-modification-using-hand-drill_1150-6131.jpg?_wi=3",
           imageAlt: "concrete work paving driveway construction",
         },
       ]}
@@ -144,7 +144,7 @@ export default function LandingPage() {
       description="We are a family-owned and operated construction business with over 20 years of experience serving our community."
       subdescription="Safety is our priority. We ensure that every job meets the highest standards of structural integrity and aesthetic finish."
       icon={ShieldCheck}
-      imageSrc="http://img.b2bpic.net/free-photo/factory-manager-gives-paperwork-files-investors-reviewing-financial-statement_482257-126495.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/factory-manager-gives-paperwork-files-investors-reviewing-financial-statement_482257-126495.jpg?_wi=2"
       imageAlt="Construction team onsite"
       mediaAnimation="slide-up"
     />
@@ -163,7 +163,7 @@ export default function LandingPage() {
           role: "Homeowner",
           company: "Local Resident",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=1",
         },
         {
           id: "2",
@@ -195,7 +195,7 @@ export default function LandingPage() {
           role: "General Contractor",
           company: "BuildRight Pros",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=2",
         },
       ]}
       title="What Our Clients Say"
@@ -243,7 +243,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-ongoing-construction-with-tracks-bulldozer-abandoned-land_181624-17192.jpg?_wi=3"
       imageAlt="Construction site"
       columns={[
         {
