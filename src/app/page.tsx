@@ -139,7 +139,7 @@ export default function LandingPage() {
         { name: "phone", type: "tel", placeholder: "Phone Number", required: true },
       ]}
       textarea={{ name: "projectDetails", placeholder: "Tell us about your project", rows: 4, required: true }}
-      imageSrc="http://img.b2bpic.net/free-photo/engineer-reviewing-plans-at-site_1150-5678.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/business-people-video-call-meeting_53876-15181.jpg?id=2770456"
       imageAlt="Construction site planning"
       mediaAnimation="slide-up"
       buttonText="Send Request"
