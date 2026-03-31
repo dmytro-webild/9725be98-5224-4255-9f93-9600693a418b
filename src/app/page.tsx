@@ -59,7 +59,7 @@ export default function LandingPage() {
       <FeatureCardTwentyFive
       animationType="slide-up"
       textboxLayout="split"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       features={[
         {
           title: "Concrete Services",          description: "Expert pouring, foundation work, and decorative concrete finishes.",          icon: Building,
@@ -90,7 +90,7 @@ export default function LandingPage() {
 
   <div id="about" data-section="about">
       <TestimonialAboutCard
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       tag="About Us"
       title="Excellence in Construction"
       description="We are a family-owned and operated construction business with over 20 years of experience serving our community."
@@ -107,7 +107,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       gridVariant="four-items-2x2-equal-grid"
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       testimonials={[
         { id: "1", name: "Sarah J.", role: "Homeowner", company: "Local Resident", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg?_wi=1" },
         { id: "2", name: "Mark D.", role: "Business Owner", company: "Downtown Plaza", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/male-worker-construction-wearing-protection-gear_23-2148784062.jpg" },
@@ -122,7 +122,7 @@ export default function LandingPage() {
 
   <div id="contact" data-section="contact">
       <ContactSplitForm
-      useInvertedBackground={false}
+      useInvertedBackground={true}
       title="Get Your Free Estimate"
       description="Ready to start your next concrete or construction project? Contact us today for a free, no-obligation quote."
       inputs={[
