@@ -62,7 +62,7 @@ export default function LandingPage() {
       description="With over 20 years of experience, we provide trusted concrete and construction services for residential and commercial clients."
       subdescription="As a family-owned business, we treat your property with the same care and attention as our own, ensuring every job is finished to the highest standard."
       icon={ShieldCheck}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -76,7 +76,7 @@ export default function LandingPage() {
         {
           title: "Concrete Work",          description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",          icon: Building,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg", imageAlt: "Concrete pouring service" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991225545-ciq8jk80.jpg?_wi=2", imageAlt: "Concrete pouring service" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774991229900-9onbznnt.jpg", imageAlt: "Concrete work finish" },
           ]
         },
