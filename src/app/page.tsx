@@ -8,7 +8,8 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Briefcase, Building, Droplets, ShieldCheck, Zap, Users, Award } from "lucide-react";
+import ContactText from '@/components/sections/contact/ContactText';
+import { Briefcase, Building, Droplets, ShieldCheck, Zap, Users, Award, Mail, Phone, MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -129,22 +130,38 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplitForm
-      useInvertedBackground={true}
-      title="Contact Colvin Twins"
-      description="Have questions? Reach out via phone or email for a consultation, or complete the form below for a free estimate."
-      inputs={[
-        { name: "fullName", type: "text", placeholder: "Full Name", required: true },
-        { name: "email", type: "email", placeholder: "Email Address", required: true },
-        { name: "phone", type: "tel", placeholder: "Phone Number", required: true },
-      ]}
-      textarea={{ name: "projectDetails", placeholder: "Tell us about your project", rows: 4, required: true }}
-      imageSrc="http://img.b2bpic.net/free-photo/engineer-reviewing-plans-at-site_1150-5678.jpg"
-      imageAlt="Construction site planning"
-      mediaAnimation="slide-up"
-      buttonText="Send Request"
-      onSubmit={(data) => console.log("Form submitted:", data)}
-    />
+      <div className="flex flex-col md:flex-row gap-8 items-stretch p-8 max-w-7xl mx-auto">
+        <div className="md:w-1/2">
+           <ContactSplitForm
+              useInvertedBackground={true}
+              title="Contact Colvin Twins"
+              description="Have questions? Reach out via phone or email for a consultation, or complete the form below for a free estimate."
+              inputs={[
+                { name: "fullName", type: "text", placeholder: "Full Name", required: true },
+                { name: "email", type: "email", placeholder: "Email Address", required: true },
+                { name: "phone", type: "tel", placeholder: "Phone Number", required: true },
+              ]}
+              textarea={{ name: "projectDetails", placeholder: "Tell us about your project", rows: 4, required: true }}
+              buttonText="Send Request"
+              onSubmit={(data) => console.log("Form submitted:", data)}
+            />
+        </div>
+        <div className="md:w-1/2 flex flex-col justify-center items-start p-12 bg-[var(--card)] rounded-xl border border-[var(--accent)]">
+            <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+            <div className="flex items-center gap-4 mb-4">
+                <Mail className="text-[var(--primary-cta)]" />
+                <span>hello@colvintwins.com</span>
+            </div>
+            <div className="flex items-center gap-4 mb-4">
+                <Phone className="text-[var(--primary-cta)]" />
+                <span>(555) 555-0123</span>
+            </div>
+            <div className="flex items-center gap-4">
+                <MapPin className="text-[var(--primary-cta)]" />
+                <span>123 Construction Way, Builder City, BC</span>
+            </div>
+        </div>
+      </div>
   </div>
 
   <div id="footer" data-section="footer">
