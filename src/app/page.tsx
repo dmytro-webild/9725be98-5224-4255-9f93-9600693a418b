@@ -146,6 +146,7 @@ export default function LandingPage() {
       imageAlt="Construction site planning"
       mediaAnimation="slide-up"
       buttonText="Send Request"
+      onSubmit={(data) => console.log("Form submitted:", data)}
     />
   </div>
 
@@ -160,6 +161,7 @@ export default function LandingPage() {
       ]}
       logoText="Colvin Twins"
       copyrightText="© 2025 Colvin Twins Concrete & Construction"
+      onPrivacyClick={() => alert("Privacy Policy Coming Soon")}
     />
   </div>
       </ReactLenis>
