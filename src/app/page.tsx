@@ -114,20 +114,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="advantage" data-section="advantage">
-      <TestimonialAboutCard
-      useInvertedBackground={false}
-      tag="Why Choose Us"
-      title="The Colvin Twins Difference"
-      description="Why settle for general contractors when you can partner with family-owned experts? We combine small-town integrity with enterprise-grade quality control."
-      subdescription="Our competitive advantage is simple: we show up on time, maintain a spotless worksite, and communicate clearly from day one. You aren't just another job site to us—you are a partner."
-      icon={Award}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774994323863-ik1a491o.webp"
-      imageAlt="Expert team consultation"
-      mediaAnimation="slide-up"
-    />
-  </div>
-
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
