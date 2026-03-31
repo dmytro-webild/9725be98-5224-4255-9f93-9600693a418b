@@ -50,7 +50,7 @@ export default function LandingPage() {
       ]}
       buttonAnimation="slide-up"
       layoutOrder="default"
-      imageSrc="http://img.b2bpic.net/free-photo/industrial-construction-site-with-heavy-machinery_107424-699.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774988868355-doi78pnh.jpg"
       imageAlt="Professional construction work site"
       mediaAnimation="blur-reveal"
     />
