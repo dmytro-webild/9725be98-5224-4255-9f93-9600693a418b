@@ -79,8 +79,8 @@ export default function LandingPage() {
         {
           title: "Concrete Work",          description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",          icon: Building,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989809272-dhy62eaw.jpg", imageAlt: "Concrete pouring service" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989826740-t3rhxpvx.jpg", imageAlt: "Concrete work finish" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774990804976-lopgfpp9.jpg", imageAlt: "Concrete pouring service" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774990814888-6iwtenjn.jpg", imageAlt: "Concrete work finish" },
           ]
         },
         {
