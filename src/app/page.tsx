@@ -154,7 +154,7 @@ export default function LandingPage() {
       columns={[
         { title: "Colvin Twins", items: [{ label: "About Us", href: "#about" }, { label: "Why Choose Us", href: "#why-choose-us" }] },
         { title: "Services", items: [{ label: "Concrete", href: "#services" }, { label: "Pressure Washing", href: "#services" }, { label: "Snow Removal", href: "#services" }] },
-        { title: "Get in Touch", items: [{ label: "Phone: 555-0123", href: "tel:5550123" }, { label: "Email: hello@colvintwins.com", href: "mailto:hello@colvintwins.com" }, { label: "Free Estimate", href: "#contact" }] },
+        { title: "Get in Touch", items: [{ label: "Phone: (502) 492-8142", href: "tel:5024928142" }, { label: "Email: twinconcrete101@gmail.com", href: "mailto:twinconcrete101@gmail.com" }, { label: "Free Estimate", href: "#contact" }] },
       ]}
       logoText="Colvin Twins"
       copyrightText="© 2025 Colvin Twins Concrete & Construction"
