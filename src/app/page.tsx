@@ -79,8 +79,8 @@ export default function LandingPage() {
         {
           title: "Concrete Work",          description: "Expert pouring, flatwork, and structural foundations for residential and commercial projects.",          icon: Building,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989809272-dhy62eaw.jpg", imageAlt: "Concrete pouring service" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989826740-t3rhxpvx.jpg", imageAlt: "Concrete work finish" },
+            { imageSrc: "https://images.unsplash.com/photo-1590486803833-9c3dbb604190?q=80&w=1200&auto=format&fit=crop", imageAlt: "High-quality concrete foundation pouring" },
+            { imageSrc: "https://images.unsplash.com/photo-1504307653684-ece8635ce1e1?q=80&w=1200&auto=format&fit=crop", imageAlt: "Smooth industrial concrete finish" },
           ]
         },
         {
@@ -124,9 +124,9 @@ export default function LandingPage() {
       cardAnimation="slide-up"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Concrete Foundation", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
-        { id: "2", name: "Pressure Wash Detail", imageSrc: "http://img.b2bpic.net/free-photo/commercial-site-owner-on-project-consultation_1150-9877.jpg" },
-        { id: "3", name: "Project Completion", imageSrc: "http://img.b2bpic.net/free-photo/happy-client-after-renovation_1150-9878.jpg" },
+        { id: "1", name: "Concrete Foundation", imageSrc: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800&auto=format&fit=crop" },
+        { id: "2", name: "Pressure Wash Detail", imageSrc: "https://images.unsplash.com/photo-1621905251189-08b45d6a268e?q=80&w=800&auto=format&fit=crop" },
+        { id: "3", name: "Project Completion", imageSrc: "https://images.unsplash.com/photo-1581094794329-c8112a76ab12?q=80&w=800&auto=format&fit=crop" },
       ]}
     />
   </div>
