@@ -62,7 +62,7 @@ export default function LandingPage() {
       description="With over 20 years of experience, we provide trusted concrete and construction services for residential and commercial clients."
       subdescription="As a family-owned business, we treat your property with the same care and attention as our own, ensuring every job is finished to the highest standard."
       icon={ShieldCheck}
-      imageSrc="http://img.b2bpic.net/free-photo/professional-construction-team-meeting-onsite_1150-4567.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774994039394-znmg5q8e.jpg"
       imageAlt="Construction team onsite"
       mediaAnimation="slide-up"
     />
