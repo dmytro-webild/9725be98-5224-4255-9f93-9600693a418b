@@ -8,7 +8,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Briefcase, Building, Droplets, ShieldCheck, Zap, Users, Award } from "lucide-react";
+import { Briefcase, Building, Droplets, ShieldCheck, Award } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -139,7 +139,7 @@ export default function LandingPage() {
         { name: "phone", type: "tel", placeholder: "Phone Number", required: true },
       ]}
       textarea={{ name: "projectDetails", placeholder: "Tell us about your project", rows: 4, required: true }}
-      imageSrc="http://img.b2bpic.net/free-photo/engineer-reviewing-plans-at-site_1150-5678.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/business-people-video-call-meeting_53876-15181.jpg?id=2770456"
       imageAlt="Construction site planning"
       mediaAnimation="slide-up"
       buttonText="Send Request"
@@ -154,7 +154,7 @@ export default function LandingPage() {
       columns={[
         { title: "Colvin Twins", items: [{ label: "About Us", href: "#about" }, { label: "Why Choose Us", href: "#why-choose-us" }] },
         { title: "Services", items: [{ label: "Concrete", href: "#services" }, { label: "Pressure Washing", href: "#services" }, { label: "Snow Removal", href: "#services" }] },
-        { title: "Get in Touch", items: [{ label: "Phone: (502) 492-8142", href: "tel:5024928142" }, { label: "Email: twinconcrete101@gmail.com", href: "mailto:twinconcrete101@gmail.com" }, { label: "Address: 40165 Shepherdville Kentucky, United States", href: "#contact" }] },
+        { title: "Get in Touch", items: [{ label: "Phone: (502) 492-8142", href: "tel:5024928142" }, { label: "Email: twinconcrete101@gmail.com", href: "mailto:twinconcrete101@gmail.com" }, { label: "40165 Shepherdville Kentucky, United States", href: "#" }] },
       ]}
       logoText="Colvin Twins"
       copyrightText="© 2025 Colvin Twins Concrete & Construction"
