@@ -86,8 +86,8 @@ export default function LandingPage() {
         {
           title: "Pressure Washing",          description: "High-pressure cleaning for driveways, siding, walkways, and heavy machinery.",          icon: Droplets,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg", imageAlt: "Before pressure washing" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg", imageAlt: "After pressure washing" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg?_wi=1", imageAlt: "Before pressure washing" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg?_wi=1", imageAlt: "After pressure washing" },
           ]
         },
         {
@@ -125,8 +125,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         { id: "1", name: "Concrete Foundation", imageSrc: "http://img.b2bpic.net/free-photo/smiling-homeowner-standing-front-new-patio_1150-9876.jpg" },
-        { id: "2", name: "Pressure Wash Detail", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg" },
-        { id: "3", name: "Pressure Wash Finish", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg" },
+        { id: "2", name: "Pressure Wash Detail", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989844111-fgh92ksl.jpg?_wi=2" },
+        { id: "3", name: "Pressure Wash Finish", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bj0A1hCFeuP28CLVQmYQBe1XNU/uploaded-1774989861222-abc12xyz.jpg?_wi=2" },
       ]}
     />
   </div>
