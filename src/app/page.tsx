@@ -129,7 +129,11 @@ export default function LandingPage() {
       imageAlt="Construction site planning"
       mediaAnimation="slide-up"
       buttonText="Send Request"
-      onSubmit={(data) => console.log("Form notification to client:", data)}
+      onSubmit={(data) => {
+          console.log("Form notification to client:", data);
+          // Route notifications to williams.david@yahoo.com
+          window.location.href = `mailto:williams.david@yahoo.com?subject=New Contact Request&body=${encodeURIComponent(JSON.stringify(data))}`;
+      }}
     />
   </div>
 
