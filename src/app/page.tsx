@@ -8,7 +8,7 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Briefcase, Building, Droplets, ShieldCheck, Award } from "lucide-react";
+import { Briefcase, Building, Droplets, ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -129,7 +129,7 @@ export default function LandingPage() {
       imageAlt="Construction site planning"
       mediaAnimation="slide-up"
       buttonText="Send Request"
-      onSubmit={(data) => console.log("Form submitted:", data)}
+      onSubmit={(data) => console.log("Form notification to client:", data)}
     />
   </div>
 
